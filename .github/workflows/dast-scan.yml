@@ -16,8 +16,8 @@ jobs:
         with:
           target_url: "http://testphp.vulnweb.com"
           accuknox_endpoint: ${{ secrets.ACCUKNOX_ENDPOINT }}
-          tenant_id: ${{ secrets.TENANT_ID }}
+          tenant_id: ${{ secrets.ACCUKNOX_TENANT }}
           accuknox_token: ${{ secrets.ACCUKNOX_TOKEN }}
-          label: ${{ secrets.ACCUKNOX_LABEL }}
+          label: "GITHUB"
           severity_threshold: "High"
           scan_type: "baseline"
