@@ -1,0 +1,4 @@
+1-Shell SharePoint Pour creer un site custum
+
+**Connect-SPOService - url {https://verinet-admin.sharepoint.com}
+**Set-SPOSite -Identity {} -DenyAddCustomizePages 0
